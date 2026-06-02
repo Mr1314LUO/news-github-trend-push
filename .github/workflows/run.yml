@@ -1,7 +1,7 @@
 name: 每日热点&GitHub项目微信推送
 on:
   schedule:
-    - cron: '30 23 * * *'  # UTC23:30 = 北京时间07:30 每日早上推送
+    - cron: '30 0 * * *'  # UTC00:30 = 北京时间08:30 每日早上推送
   workflow_dispatch:  # 支持手动一键测试
 
 jobs:
